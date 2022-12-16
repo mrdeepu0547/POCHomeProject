@@ -1,7 +1,7 @@
 <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top">
   <div class="container-fluid">
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
-    <div class="col-1">
+    <div class="col-2">
       <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
           MENU
       </button>
@@ -46,26 +46,23 @@
 
 
 
-
-<nav class="navbar navbar-expand-sm navbar-fixed-top">
+<!--
+<nav class="navbar navbar-expand-lg navbar-fixed-top">
   <div class="container-fluid rectangular">
-    <div class="col-3">
+    <div class="col-2">
       <a>
         <img src="assets/images/image.png" class="logo">
       </a>
     </div>
-    <div class="col-8">
-      <div class="collapse navbar-collapse">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">General Aettings</a>
-          <a class="nav-link" href="#">User</a>
-          <a class="nav-link" href="#">Listing</a>
-          <a class="nav-link" href="#">Events</a>
-          <a class="nav-link" href="#">Reports</a>
-          <a class="nav-link" href="#">Displayed</a>
+          <a class="navactive" href="#">General Aettings</a>
+         <div> <a class="nfade" href="#">User</a></div>
+          <a class="nfade" href="#">Listing</a>
+          <a class="nfade" href="#">Events</a>
+          <a class="nfade" href="#">Reports</a>
+          <a class="nfade" href="#">Displayed</a>
         </div>
-      </div>
-    </div>
+
     <div class="col-1 text-right">
       <div class="collapse navbar-collapse" id="navbar-list-4">
         <ul class="navbar-nav">
@@ -86,5 +83,47 @@
       </div>
     </div>
   </div>
-</nav>
+</nav> -->
+
+
+
+<div class="container-fluid rectangular p-0 m-0">
+  <div class="row d-flex">
+    <div class="col-2">
+      <img src="assets\images\Redesign Logo white@3x.png" class="logo">
+    </div>
+    <div class="col-8 m-4">
+      <a class="navactive" href="#">GeneralAettings</a>
+      <a class="nfade" href="#">User</a>
+      <a class="nfade" href="#">Listing</a>
+      <a class="nfade" href="#">Events</a>
+      <a class="nfade" href="#">Reports</a>
+      <a class="nfade" href="#">Displayed</a>
+    </div>
+     <div class="Ellipse-59 col-1">
+      <p-avatar label="V" styleClass="mr-2" size="large" [style]="{'background-color':'#31567f', 'color': '#ffffff'}" shape="circle"></p-avatar>
+      <p-menu #menu [popup]="true" [model]="items"></p-menu>
+    </div>
+    </div>
+  </div>
+
+
+<div class="Admin_General-Settings_Scheduler_Year">
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link " data-bs-toggle="tab" href="#home">
+      <span class="General-Settings">
+        General Settings
+      </span>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#profile">
+      <span class="Scheduler">
+        Scheduler
+      </span>
+    </a>
+  </li>
+</ul>
 <app-footer></app-footer>
+</div>

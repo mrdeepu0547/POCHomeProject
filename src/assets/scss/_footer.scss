@@ -1,0 +1,486 @@
+.tab-content {
+  background-color: #fff;
+}
+
+.Create {
+
+  font-family: "AvenirLTStd-Roman", sans-serif !important;
+  font-size: 15px;
+  color: #31567f;
+  margin: 2px 0 1px;
+}
+
+.Delete {
+  font-family: "AvenirLTStd-Roman", sans-serif !important;
+  font-size: 15px;
+  color: #31567f;
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+}
+
+.thead-light {
+  width: 660px;
+  height: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: #f5f7ff;
+  border: 0px solid #f5f7ff;
+  font-family: "AvenirLTStd-Roman", sans-serif !important;
+  font-size: 16px;
+  font-weight: normal;
+}
+.Rectangle-674 {
+  width: 160px;
+  height: 45px;
+  margin: 12px 0px 0px 256px;
+    padding: 0px 0px 0px 0px;
+  border-radius: 23px;
+  background-color: #31567f;
+}
+thead {
+  width: 660px;
+  height: 50px;
+
+  background-color: #f5f7ff;
+}
+
+.thead-tr {
+  font-family: "AvenirLTStd-Roman", sans-serif !important;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #969696;
+}
+
+tbody {
+  font-family: "AvenirLTStd-Roman", sans-serif !important;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #001935;
+}
+
+.pi-check-circle {
+  color: greenyellow;
+}
+
+.nav-tabs {
+  margin-right: 30px;
+  margin-top: 43px;
+  margin-bottom: 30px;
+  margin-left: 34px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border-bottom: 2px solid #31567f;
+  margin-right: 19px;
+
+}
+.Path-2025 {
+  width: 12.7px;
+  height: 12.7px;
+
+}
+
+.Rectangle-665 {
+  width: 540px;
+  height: 820px;
+  margin: 18px 10px 0 40px;
+  padding: 20px 20px 22px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+
+.Rectangle-552 {
+  width: 1300px;
+  height: 90%;
+  margin: 33px 22px 60px 33px;
+  padding: 45px 20px 20px 25px;
+  background-color: #fff;
+}
+
+.Schedule-Information {
+  margin: 0 26px 10px 0;
+  font-family: "AvenirLTStd-Medium", sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #001935;
+}
+
+
+.Rectangle-666 {
+  width: 500px;
+  height: 1px;
+  margin: 10px 0 30px;
+  background-color: #e2e2e2;
+}
+
+.Rectangle-667 {
+  width: 491px;
+  // margin: -40px 73px -8px 0px;
+  padding: 10px 150px 10px 0px;
+  border-radius: 23px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+
+.Rectangle-670 {
+  width: 491px;
+  height: 120px;
+  border-radius: 5px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+
+
+.Rectangle-669 {
+  width: 491px;
+  height: 45px;
+  margin: 10px 0 20px;
+  padding: 12px 20px 11px 20px;
+  border-radius: 23px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+
+.Rectangle-699 {
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow: 0 3px 3px 0 var(--black-16);
+  background-color: #31567f;
+}
+
+.Yearly {
+  width: 39px;
+  height: 18px;
+  font-family: "AvenirLTStd-Heavy", sans-serif !important;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Monthly {
+  width: 55px;
+  height: 18px;
+  font-family: "AvenirLTStd-Heavy", sans-serif !important;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #31567f;
+}
+
+
+.Rectangle-700 {
+  width: 80px;
+  height: 40px;
+  margin: 2px 5px 5px 5px;
+  border-radius: 6px;
+  border: solid 1px #31567f;
+  background-color: #fff;
+}
+
+.Rectangle-701 {
+  width: 80px;
+  height: 40px;
+  margin: 2px 5px 5px 5px;
+  border-radius: 6px;
+  border: solid 1px #31567f;
+  background-color: #fff;
+}
+
+.Rectangle-702 {
+  width: 80px;
+  height: 40px;
+  margin: 2px 5px 5px 5px;
+  border-radius: 6px;
+  border: solid 1px #31567f;
+  background-color: #fff;
+}
+
+.Rectangle-703 {
+  width: 80px;
+  height: 40px;
+  margin: 2px 5px 5px 5px;
+  border-radius: 6px;
+  border: solid 1px #31567f;
+  background-color: #fff;
+}
+
+.Rectangle-706 {
+  width: 30px;
+  height: 30px;
+  margin: 0px -8px 11px 14px;
+  border-radius: 6px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+
+.st {
+  width: 16px;
+  height: 17px;
+  margin: 0px 0px 0px -3px;
+  font-family: AvenirLTStd-Roman;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: left;
+  color: #969696;
+}
+.Rectangle-674 {
+  width: 160px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #31567f;
+}
+.th {
+  width: 15px;
+  height: 17px;
+  margin: 7px 0px 0px -3px;
+  font-family: AvenirLTStd-Roman;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+
+.MON {
+  width: 35px;
+  height: 17px;
+  font-family: AvenirLTStd-Roman;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #969696;
+}
+
+.Rectangle-709 {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  margin: 0px 0px 0px 13px;
+  box-shadow: 0 3px 3px 0 var(--black-16);
+  background-color: #31567f;
+}
+.Rectangle-719 {
+  width: 50px;
+  height: 30px;
+  border-radius: 6px;
+  margin: 0px 0px 0px 10px;
+  box-shadow: 0 3px 3px 0 var(--black-16);
+  background-color: #31567f;
+}
+.Every {
+  width: 42px;
+  height: 17px;
+  margin: 4px 6px 0px 0px;
+  font-family: AvenirLTStd-Roman;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #969696;
+}
+.day{
+  width: 42px;
+  height: 17px;
+  margin: 10px 0px 0px 5px;
+  font-family: AvenirLTStd-Roman;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #969696;
+}
+.Weekly {
+  width: 49px;
+  height: 18px;
+  font-family: "AvenirLTStd-Roman", sans-serif !important;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #31567f;
+}
+
+.Daily {
+  width: 33px;
+  height: 18px;
+  font-family: "AvenirLTStd-Roman", sans-serif !important;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #31567f;
+}
+
+.Once {
+  width: 36px;
+  height: 18px;
+  font-family: "AvenirLTStd-Roman", sans-serif !important;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #31567f;
+}
+
+.Rectangle-704 {
+  width: 120px;
+  height: 40px;
+  background: url("C:/Users/admin/POCHomeProject/src/assets/images/code_black_24dp.png") no-repeat scroll 7px 7px;
+  padding-right:10px;
+  border-radius: 20px;
+  margin: -20px 0px 10px 0px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+
+.borders{
+  width: 500px;
+  height: 100%;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+  padding: 14px 38px 16px 20px;
+}
+body {
+  font-family: "AvenirLTStd-Roman", sans-serif !important;
+}
+.Rectangle{
+    width: 218px;
+    margin: 0px 0px 10px 60px;
+    border-radius: 23px;
+    border: solid 1px #e2e2e2;
+    background-color: #fff;
+}
+
+
+.Rectangle-1 {
+  width: 50px;
+  height: 30px;
+  margin: 0px 0px 0px 24px;
+  border-radius: 6px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+.Rectangle-2 {
+  width: 50px;
+  height: 30px;
+  margin: 0px 0px 0px 5px;
+  border-radius: 6px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+.Rectangle-3 {
+  width: 50px;
+  height: 30px;
+  margin: 0px 0px 0px 5px;
+  border-radius: 6px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+.Rectangle-4 {
+  width: 50px;
+  height: 30px;
+  margin: 0px 0px 0px 5px;
+  border-radius: 6px;
+  box-shadow: 0 3px 3px 0 var(--black-16);
+  background-color: #31567f;
+}
+.Rectangle-5 {
+  width: 50px;
+  height: 30px;
+  margin: 0px 0px 0px 5px;
+  border-radius: 6px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+.Rectangle-6 {
+  width: 50px;
+  height: 30px;
+  margin: 0px 0px 0px 5px;
+  border-radius: 6px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+.Rectangle-7{
+  width: 50px;
+  height: 30px;
+  margin: 0px 0px 0px 5px;
+  border-radius: 6px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+.Rectangle-716 {
+  width: 50px;
+  height: 30px;
+  margin: 0px 5px 15px 13px;
+  border-radius: 6px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+}
+.checkbox-check{
+  margin: 25px 0px 0px 5px;
+  color: #31567f;
+}
+
+.Month- {
+  width: 49px;
+  height: 17px;
+      margin: 23px 0px -27px 4px;
+  font-family: AvenirLTStd-Roman;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: left;
+  color: #969696
+}

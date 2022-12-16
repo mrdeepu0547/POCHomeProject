@@ -28,7 +28,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "src/styles.scss",
+              "src/assets/scss/style.scss"
+
             ],
             "scripts": []
           },
@@ -96,6 +103,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -103,5 +111,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4ee9f144-5759-4b64-aae6-c56267033c02"
   }
 }
